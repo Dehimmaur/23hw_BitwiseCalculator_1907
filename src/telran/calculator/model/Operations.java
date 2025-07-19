@@ -22,7 +22,7 @@ public enum Operations {
     NOT {
         @Override
         public int apply(int x, int y) {
-            return ~x;  // Второй аргумент игнорируем
+            return ~x; 
         }
     },
     SHIFT_LEFT {
